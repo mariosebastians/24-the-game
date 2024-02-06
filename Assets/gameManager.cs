@@ -38,7 +38,6 @@ public class gameManager : MonoBehaviour
             temp2[i] = int.Parse(temp);
             calcu += temp2[i];
         }
-        //Debug.Log("Hasil = " + calcu);
         nextBtn.gameObject.SetActive(calcu == 24);
         img.gameObject.SetActive(calcu == 24);
         outputHasil.text = calcu.ToString();
